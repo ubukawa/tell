@@ -1,4 +1,4 @@
-style: ./style.json
+style: https://dev-unvt.dfs.un.org/styles/clearmapVector/clearmap-plain-pro.json
 title: What's In Blue
 subtitle: 2021-10
 byline: UN Vector Tile Toolkit
