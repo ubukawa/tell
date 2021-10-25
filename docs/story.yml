@@ -1,39 +1,106 @@
-style: https://dev-unvt.dfs.un.org/styles/clearmapVector/clearmap-plain-pro.json
-title: What's In Blue
+style: https://dev-unvt.dfs.un.org/styles/style-prod.json
+title: MINUSCA - Central African Republic
 subtitle: 2021-10
-byline: UN Vector Tile Toolkit
+byline: Airfield Directory
 theme: light
 footer: This is the end of the story. The source of this story is <a href='https://www.securitycouncilreport.org/whatsinblue/' target='wib'>What's In Blue</a>.
 view:
 # you can pick the location information from https://optgeo.github.io/relief
-  car:
-    center: [21.91, 7.71]
+  bangui:
+    center: [18.51987, 4.397694]
     zoom: 4.84
-  lakes:
-    center: [33.9, -3.15]
+  bambari:
+    center: [20.6471, 5.856944]
     zoom: 4.84
-  haiti:
-    center: [-73.73, 19.25]
+  obo:
+    center: [26.4808442,5.3708461]
     zoom: 5.34
 chapters: 
   - id: c1
     alignment: right
     url: https://www.securitycouncilreport.org/whatsinblue/2021/10/central-african-republic-briefing-and-consultations-7.php
-    title: Central African Republic: Briefing and Consultations
+    title: Bangui: Mpoko International Airport
     description: >
-      On Monday (18 October), the Security Council will meet for a briefing, followed by consultations, on the Central African Republic (CAR). Special Representative for the CAR and head of the UN Multidimensional Integrated Stabilization Mission in the Central African Republic (MINUSCA) Mankeur Ndiaye will brief on the Secretary-General’s latest MINUSCA report (S/2021/867), which was issued on 12 October. Representatives of the AU and the EU, and a civil society briefer, are also likely to brief the Council.
-    location: car
+      <br> IATA CODE: BGF <br> 
+      ICAO CODE:EFF.
+      <style type="text/css">
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+              overflow:hidden;padding:10px 5px;word-break:normal;}
+            .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+              font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+            .tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+            .tg .tg-0lax{text-align:left;vertical-align:top}
+            </style>
+            <table class="tg">
+            <thead>
+              <tr>
+                <th class="tg-1wig">Approach</th>
+                <th class="tg-1wig">Length x Width</th>
+                <th class="tg-1wig">Surface</th>
+                <th class="tg-1wig">GPS Coordinates</th>
+                <th class="tg-1wig">Latitude</th>
+                <th class="tg-1wig">Longitude</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tg-0lax">09/27</td>
+                <td class="tg-0lax">1570X40</td>
+                <td class="tg-0lax">Compacted Gravel</td>
+                <td class="tg-0lax"></td>
+                <td class="tg-0lax">05°51'25''N</td>
+                <td class="tg-0lax">20°38'49.55''E</td>
+              </tr>
+              <tr>
+                <td class="tg-1wig">Airspace Class</td>
+                <td class="tg-1wig">Lighting</td>
+                <td class="tg-1wig">PAPI</td>
+                <td class="tg-1wig">Operation Hours</td>
+                <td class="tg-1wig"></td>
+                <td class="tg-1wig"></td>
+              </tr>
+              <tr>
+                <td class="tg-0lax">D</td>
+                <td class="tg-0lax">Some Runway lights are serviceable/calkit lights</td>
+                <td class="tg-0lax">Available</td>
+                <td class="tg-0lax">Day (SR-SS)</td>
+                <td class="tg-0lax"> </td>
+                <td class="tg-0lax"> </td>
+              </tr>
+              <tr><B>Radio Navigation and Landing Aids</B>
+                <td class="tg-0lax">Airspace Class</td>
+                <td class="tg-0lax">Lighting</td>
+                <td class="tg-0lax">PAPI</td>
+                <td class="tg-0lax">Operation Hours</td>
+                <td class="tg-0lax"></td>
+                <td class="tg-0lax"></td>
+              </tr>
+            </tbody>
+            </table>    
+            <ol><B> General Remarks </B>
+                <li>Ground Support Equipments and Tow Trucks are available.</li>
+                <li>Handling services is performed by Movcon, AATU, and AHS</li>
+                <li>Airspace controlled</li>
+                Bangui AVN Ext Numbers: 173-6390/6540/5834
+              </ol>
+          
+    image: https://github.com/gabrielsanya-ops/tell/blob/main/images/Bangui_airpot2.png?raw=true
+         name: Bangui International Airport
+    location: bangui
   - id: c2
     alignment: left
     url: https://www.securitycouncilreport.org/whatsinblue/2021/10/great-lakes-region-ministerial-level-debate.php
-    title: Great Lakes Region: Ministerial-level Debate
+    title: BAMBARI AIRFIELD
     description: >
       Tomorrow (20 October), the Security Council will hold a ministerial-level debate on the Great Lakes region. Kenya’s Cabinet Secretary for Foreign Affairs Raychelle Omamo will chair the meeting. The expected briefers are Assistant Secretary-General for Africa in the Departments of Political and Peacebuilding Affairs and Peace Operations (DPPA-DPO) Martha Ama Akyaa Pobee, Special Envoy of the Secretary-General for the Great Lakes Region Huang Xia, and Executive Secretary of the International Conference on the Great Lakes Region (ICGLR) João Caholo. A civil society representative may also brief. Several countries from the Great Lakes Region are expected to participate under rule 37 of the Council’s provisional rules of procedure.
-    location: lakes
+    location: bambari
   - id: c3
     alignment: center
     url: https://www.securitycouncilreport.org/whatsinblue/2021/10/haiti-last-fridays-vote-on-the-un-integrated-office-in-haiti-binuh-mandate-renewal.php
     title: Haiti: Last Friday’s Vote on the UN Integrated Office in Haiti (BINUH) Mandate Renewal
     description: >
       On Friday (15 October), the Security Council unanimously adopted resolution 2600, renewing the mandate of the UN Integrated Office in Haiti (BINUH) for nine months, until 15 July 2022. Resolution 2600 also requests the Secretary-General to conduct an assessment of BINUH’s mandate within six months of the resolution’s adoption. The US, the penholder on Haiti, presented the draft jointly with Mexico, which has cooperated with the US on several Council products on Haiti this year.
-    location: haiti
+    image: https://github.com/gabrielsanya-ops/tell/blob/main/images/Bangui_airpot2.png?raw=true
+         name: Bangui International Airport
+    location: obo
