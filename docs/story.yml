@@ -8,13 +8,13 @@ view:
 # you can pick the location information from https://optgeo.github.io/relief
   bangui:
     center: [18.51987, 4.397694]
-    zoom: 4.84
+    zoom: 8
   bambari:
     center: [20.6471, 5.856944]
-    zoom: 4.84
+    zoom: 8
   obo:
     center: [26.4808442,5.3708461]
-    zoom: 5.34
+    zoom: 8
 chapters: 
   - id: c1
     alignment: right
